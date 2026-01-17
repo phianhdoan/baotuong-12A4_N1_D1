@@ -1,0 +1,60 @@
+body {
+    font-family: "Cambria";
+}
+
+.header,
+.nav,
+.footer {
+    text-align: center;
+}
+
+.header h2 {
+    font-size: 30px;
+    color: #ff5555;
+}
+
+.header img {
+    border-radius: 15px;
+}
+
+.header p {
+    font-size: 25px;
+    color: #5555ff;
+}
+
+.cont {
+    width: 50%;
+    display: block;
+    margin: auto;
+    /*Căn giữa (chúng em tìm hiểu kiến thức ngoài)*/
+    text-align: justify;
+}
+
+.nav {
+    border-top: solid;
+    border-bottom: solid;
+    background-color: #ffff55;
+}
+
+.nav a {
+    width: 100px;
+    font-size: 20px;
+    text-decoration: none;
+    /*Bỏ gạch chân cho hyperlink*/
+    color: black;
+    display: inline-grid;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px 20px;
+    background-color: white;
+}
+
+.footer {
+    border-top: solid;
+    background-color: #00AAAA;
+}
+.footer p{
+    font-size: 15px;
+    color: white;
+}

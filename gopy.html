@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dự án trang web</title>
+    <style>
+        h2 {
+            text-align: center;
+        }
+
+        label {
+            text-align: center;
+            display: block;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        input {
+            font-family: Cambria;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+        .danhgia {
+            text-align: center;
+        }
+
+        .radio {
+            display: inline;
+            margin: 6px auto;
+        }
+
+        .txt {
+            width: 40%;
+            height: 30px;
+            margin-top: 10px;
+        }
+
+        textarea {
+            width: 40%;
+            height: 120px;
+            margin-top: 10px;
+            border-radius: 10px;
+        }
+
+        .nutsubmit {
+            display: block;
+            margin: 20px auto;
+            width: 100px;
+            height: 30px;
+            background-color: #55ff55;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h2>Ngày giải phóng Miền Nam Thống Nhất đất nước</h2>
+        <img src="src/vietnam.png" style="height: 100px;">
+        <strong>
+            <p>Ngày lễ trọng đại 30 tháng 4</p>
+        </strong>
+    </div>
+    <div class="nav">
+        <a href="index.html">Trang chủ</a>
+        <a href="baiviet.html">Sự kiện</a>
+        <a href="thongtin.html">Thông tin</a>
+        <a href="gopy.html">Góp ý</a>
+    </div>
+    <div class="cont">
+        <form method="post">
+            <h2>Góp ý cho Báo tường</h2>
+            <p>
+                Mọi ý kiến đóng góp của bạn sẽ giúp báo tường ngày 30/4
+                trở nên hoàn thiện và ý nghĩa hơn.
+            </p>
+            <label>Họ và tên<br><input type="text" name="txtten" class="txt"></label><br>
+            <label>Địa chỉ email<br><input type="text" name="txtemail" class="txt"></label><br>
+            <label>Ý kiến đóng góp của bạn<br><textarea name="txtgopy"></textarea></label><br>
+            <div class="danhgia">
+                <p>Đánh giá báo tường</p>
+                <label class="radio">
+                    <input type="radio" name="rate"> Rất hay
+                </label>
+                <label class="radio">
+                    <input type="radio" name="rate"> Hay
+                </label>
+                <label class="radio">
+                    <input type="radio" name="rate"> Cần cải thiện
+                </label>
+            </div>
+            <input type="submit" value="Gửi góp ý" class="nutsubmit">
+        </form>
+    </div>
+    <div class="footer">
+        <p>Nhóm 1 Dãy 1</p>
+        <p>Mã số: 01, 02, 03</p>
+        <p style="text-align: right;">Cập nhật 14/01/2025</p>
+    </div>
+</body>
+
+</html>
