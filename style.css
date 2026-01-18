@@ -54,7 +54,20 @@ body {
     border-top: solid;
     background-color: #00AAAA;
 }
-.footer p{
+
+.footer p {
     font-size: 15px;
     color: white;
+}
+
+.star {
+    text-align: center;
+}
+
+.submit {
+    display: block;
+    margin: 5px auto;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
 }
