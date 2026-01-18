@@ -64,6 +64,13 @@ body {
     text-align: center;
 }
 
+.star textarea {
+    width: 40%;
+    height: 120px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
 .submit {
     display: block;
     margin: 5px auto;
