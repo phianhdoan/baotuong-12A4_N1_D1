@@ -53,11 +53,30 @@ body {
 .footer {
     border-top: solid;
     background-color: #00AAAA;
+    overflow: auto;
 }
 
-.footer p {
+.wrap p {
     font-size: 15px;
     color: white;
+}
+
+.footer img,
+.wrap {
+    display: inline-block;
+}
+
+.footer img {
+    width: 120px;
+    float: right;
+    vertical-align: middle;
+    margin: 0px 30px;
+}
+
+.wrap {
+    text-align: left;
+    float: left;
+    margin: 0px 30px;
 }
 
 .star {
