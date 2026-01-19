@@ -1,5 +1,6 @@
 body {
     font-family: "Cambria";
+    background-color: hsl(180, 100%, 88%);
 }
 
 .header,
@@ -56,27 +57,13 @@ body {
     overflow: auto;
 }
 
-.wrap p {
+.footer p {
     font-size: 15px;
     color: white;
 }
 
-.footer img,
-.wrap {
+ .wrap{
     display: inline-block;
-}
-
-.footer img {
-    width: 120px;
-    float: right;
-    vertical-align: middle;
-    margin: 0px 30px;
-}
-
-.wrap {
-    text-align: left;
-    float: left;
-    margin: 0px 30px;
 }
 
 .star {
@@ -96,4 +83,8 @@ body {
     width: 100px;
     height: 30px;
     border-radius: 10px;
+}
+.logo {
+    position: absolute;
+    left: 0;
 }
